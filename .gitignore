@@ -1,0 +1,4 @@
+# Ignore .DS_Store files at the project level
+# TODO: Figure out what's up with GH Desktop on MacOS!
+.DS_Store
+
