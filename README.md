@@ -4,6 +4,7 @@ An archive of research
 A project from OneVariable 
 
 James Munns & Amanda Majorowicz
+
 # Project Page Organization
 Different folders: 
 
@@ -21,6 +22,6 @@ with these topics
 + Open tasks
 + Areas of research
 + Cross links to related topics/projects
-+ Note logs?
++ Note logs
 
 Some things won't fit into a "project" shaped hole. Some things are just open research topics. Some things are other people's projects and what James thinks about them.
