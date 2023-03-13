@@ -37,3 +37,11 @@ with these topics
 + Note logs
 
 Some things won't fit into a "project" shaped hole. Some things are just open research topics. Some things are other people's projects and what James thinks about them.
+
+## License
+
+The written prose contained within this repository is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+
+### Contribution
+
+Unless you explicitly state otherwise, any contribution intentionally submitted for inclusion in the work by you shall be licensed as above, without any additional terms or conditions.
