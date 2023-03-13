@@ -1,6 +1,8 @@
 # research-archive
 
-An archive of research.
+> What distinguishes us as humans is our ability to make tools and tell stories.
+>
+> &mdash; Adam Savage
 
 A project from OneVariable.
 
