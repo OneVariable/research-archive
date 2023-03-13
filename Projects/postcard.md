@@ -10,7 +10,7 @@ Relevant links:
 
 ## Summary
 
-Postcard is a serializer and deserializer library and wire format, written in Rust. It is built on top of the [serde] framework, the most widely used way of handling serialization and deserialization in Rust.
+Postcard is a serializer and deserializer library and wire format[^1], written in Rust. It is built on top of the [serde] framework, the most widely used way of handling serialization and deserialization in Rust.
 
 It was originally written to be portable, resource friendly, and simple for embedded systems, but due to its efficient and performant nature, has found home in a number of other locations.
 
@@ -18,6 +18,8 @@ It is [not a self-describing format], meaning that both the sender and receiver 
 
 [serde]: https://serde.rs/
 [not a self-describing format]: https://postcard.jamesmunns.com/wire-format.html#non-self-describing-format
+[wire protocol]: https://en.wikipedia.org/wiki/Wire_protocol
+[^1]: The term "wire format", or [wire protocol] describes the way that bytes are arranged for a given message. This could be "on the wire", e.g. over an internet connection or serial port, or saved on a hard drive.
 
 ## Goals
 
