@@ -1,11 +1,21 @@
 # research-archive
-An archive of research
 
-A project from OneVariable 
+An archive of research.
+
+A project from OneVariable.
+
+Please [contact us] for corrections or additions, questions or inquiries, or project collaborations.
+
+[contact us]: mailto:contact@onevariable.com
 
 James Munns & Amanda Majorowicz
 
-# Project Page Organization
+## Disclaimer
+
+The information provided here is for general informational purposes only and is a work in progress as a reference library with ongoing additions and revisions. All information is provided in good faith, however we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability or completeness of any information.
+
+## Project Page Organization
+
 Different folders: 
 
 * Projects
