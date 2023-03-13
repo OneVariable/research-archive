@@ -40,7 +40,7 @@ I have quite a few parts like toggle/momentary switches, analog potentiometers, 
 
 ### No Debugger
 
-In Rust, it is very common to use an external debugging probe via SWD, like a [J-Link] or [DAPLink]. This makes it really easy to reprogram the device, and even get logs via something like [probe-run] and [defmt]. These are made possible using [probe-rs]'s
+In Rust, it is very common to use an external debugging probe via SWD, like a [J-Link] or [DAPLink]. This makes it really easy to reprogram the device, and even get logs via something like [probe-run] and [defmt]. These are made possible using [probe-rs]'s wide support for different chips, debug probes, and protocols like RTT for getting logs via the debugger link.
 
 On one hand, this is super powerful. It makes a lot of the initial board bringup painless, and every Cortex-M board supports it.
 
