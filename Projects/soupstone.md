@@ -27,7 +27,7 @@ The name comes from the [Stone Soup] folk story, as well as [worry stones].
 
 ## Current State
 
-As of March 2023, still pretty early! I've been starting with the [nRF52840-DK], because I have some laying around, and they have both a debugger and the MCU USB device port broken out.
+As of March 2023, still pretty early! I've been starting with the [nRF52840-DK], because I had one of these boards lying around already, and it has a built-in debugging probe onboard and has a USB port that is connected to the on-chip USB device capabilities.
 
 The initial work has been focused on writing a very simple "[stage zero]" USB RAM loader (see below). As the XIAO board does not have easily-accessible SWD debugging pins for reprogramming, it will generally be easier to reprogram and debug the device via the main USB port.
 
@@ -70,14 +70,14 @@ This meant:
 * A very simple, USB-serial link, using [postcard]
 * Nothing I write with the loader will survive a reboot
 
-Most of the time when you are writing early code, or rapidly iterating, you don't really care about the code running when it isn't attached to your computer. If you have enough RAM to fit both the application, and the RAM the application needs, that means you can skip the slowest part of "flashing" a device: erasing and writing the flash memory.
+In general when you are writing early code for microcontrollers, or rapidly iterating on whatever embedded project you are working on, you don't really care about the code running when it isn't attached to your computer. If you have enough RAM to fit both the application and the RAM used at runtime by the application, that means you can skip the slowest part of "flashing" a device: erasing and writing the flash memory.
 
 Luckily with the nRF52840, you have 256KiB of RAM, which is usually plenty for both application and running RAM. For reference, I often work with [STM32G0] chips, which only have 16KiB-64KiB of Flash, and 8KiB of RAM, so the nRF has more space than I'd ever see on that entire device!
 
 At the moment, I have a working [stage zero] RAM loader working, which makes it pretty quick to reboot, flash, reboot, and run brand new code.
 
 [analysis paralysis]: https://en.wikipedia.org/wiki/Analysis_paralysis
-[postcard]: ../postcard.md
+[postcard]: ./postcard.md
 [STM32G0]: https://www.st.com/en/microcontrollers-microprocessors/stm32g0-series.html
 
 ### Standard USB communication "app framework"
