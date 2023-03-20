@@ -18,6 +18,8 @@ Rust has made embedded development better (for me) in a number of ways:
 
 However, Rust does not have as good of a "getting started (new to embedded and/or new to rust" story, or a story for "just want things to work (artists/hobbyists)").
 
+> TODO: These claims above need better examples and citation. At the moment, they are largely "gut feelings" from James.
+
 Ecosystems like Arduino and CircuitPything/MicroPython make getting started much easier than Rust does today, despite whatever shortcomings which exist (or are perceived to exist) with those ecosystems, such as performance, reliability, licensing or "under the hood complexity."
 
 ## Concepts to consider
