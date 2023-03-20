@@ -112,7 +112,7 @@ Answers I got back:
 >
 > I think I'll add one more bullet point, a bit more philosophical: micro/circuitpython carry the spirit of Python's "batteries included" ... so you don't have to go and find crates, add them to Cargo.toml - most stuff is just bundled in, and designed to interoperate (kinda like embedded-hal on steroids)
 
-### [Scott M.] - Regarding RTOS usage:
+### [Scott M] - Regarding RTOS usage:
 
 > Some initial thoughts of the top of my head.
 >
