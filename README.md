@@ -18,14 +18,14 @@ The information provided here is for general informational purposes only and is 
 
 ## Project Page Organization
 
-Different folders: 
+Different folders:
 
 * Projects
 * Inspiration from others
-* Current Research 
+* Current Research
 * Notes, other material
 
-with these topics 
+with these topics
 
 + Name
 + Summary
